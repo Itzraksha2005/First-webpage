@@ -1,3 +1,26 @@
-*{
-    margin: auto;
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
 }
+ul{
+    display: flex;
+    justify-content:flex-end;
+}
+  li{
+    list-style:none;
+    font-size: 20px;
+    padding: 0 10px;
+}
+li:hover{
+    color: blue;
+}
+button{
+    color: red;
+    background-color: aqua;
+}
+button:hover{
+    background-color: brown;
+    color: black;
+}
+
